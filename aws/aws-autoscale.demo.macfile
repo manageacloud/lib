@@ -3,7 +3,7 @@ description: Scaled and Load-Balanced nginx
 name: {INF_NAME}
 version: {INF_VERSION}
 parents:
-  aws: /home/tk421/code/lib/aws/aws-autoscale.abstract.macfile
+  aws: https://raw.githubusercontent.com/manageacloud/lib/master/aws/aws-autoscale.abstract.macfile
 
 roles:
   app:
