@@ -121,12 +121,12 @@ defaults:  # defaults defines the default values and order to execute
   build_lb_inf:
     resource: build_lb
     params:
+      listeners: Protocol=HTTP,LoadBalancerPort=80,InstanceProtocol=HTTP,InstancePort=80
       region: {AWS_REGION}
 
   register_lb_inf:
     resource: register_lb
     params:
-      listeners: Protocol=HTTP,LoadBalancerPort=80,InstanceProtocol=HTTP,InstancePort=80
       load-balancer-name: lb-{INF_NAME}-{INF_VERSION}
       instances: role.app.get_id
       region: {AWS_REGION}
