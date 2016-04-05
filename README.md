@@ -6,6 +6,6 @@ Learn how to [install ManageaCloud platform](https://manageacloud.com/docs/getti
 
 Please access to every supplier for details of the available functionality:
 
-[Amazon Web Services](/lib/tree/master/aws)
+[Amazon Web Services](https://github.com/manageacloud/lib/tree/master/aws)
 
 
